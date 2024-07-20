@@ -1,0 +1,49 @@
+//Implementation of list using ArrayList
+
+ArrayList<Integer> list=new ArrayList<>();
+
+//Adding element in list
+list.add(1);
+list.add(2);
+
+//set new element at the index 0
+list.set(0,20);
+
+//this is for add other list in this list
+list.addAll(list2); 
+
+//print element at index 1
+System.out.println(list.get(1));
+
+//Remove element from particular Index
+list.remove(1);
+
+//Remove element by using direct element name (not using index)
+list.remove(Integer.valuesOf(30)):
+
+//for check that element is present in list or not
+System.out.println(list.contains(1));
+
+//method 1 for print list
+for(int i=0;i<list.size();i++){
+	System.out.println(list.get(i));
+}
+
+//method 2 for print list(using for each loop)
+for(Integer Element:list){
+	System.out.println(list.get(i));
+}
+
+//method 3 for print list(By using iterator method)
+Iterator<Integer> it=list.iterator();
+
+while(it.hasNext()){
+	System.out.println(it.next());
+}
+
+//For clear list ,it make empty list
+list.clear();
+
+//For size
+
+list.size();

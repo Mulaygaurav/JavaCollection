@@ -1,0 +1,21 @@
+//Implementation of stack
+Stack<Integer> animals=new Stack<>();
+
+//Adding element in Stack
+animals.push(10);
+animals.push(20);
+animals.push(30);
+animals.push(40);
+
+//Print stack
+System.out.println(animals);
+
+//Print top element of the Stack
+System.out.println(animals.peek());
+
+//Remove top element of Stack
+animals.pop();
+
+System.out.println(animals);
+
+System.out.println(animals.peek());

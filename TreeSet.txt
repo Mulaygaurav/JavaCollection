@@ -1,0 +1,32 @@
+
+//Implementing Set Using TreeSet
+//Elements in TreeSetis print in sorted order like 34 43 54 67 75
+Set<Integer> set=new TreeSet();
+
+//Add element in Set
+set.add(34);
+set.add(75);
+set.add(54);
+set.add(67);
+set.add(43);
+
+//Print Set(print in sorted order
+System.out.println(set);
+
+//Remove element
+set.remove(54);
+System.out.println(set);
+
+//Checking Element is Present or not
+System.out.println(set.contains(75));
+
+//Checking Set is empty or not
+System.out.println(set.isEmpty());
+
+//Print size of set
+System.out.println(set.size());
+
+//Delete all element from set
+set.clear();
+
+System.out.println(set);

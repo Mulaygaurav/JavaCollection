@@ -1,0 +1,35 @@
+//Implementing queue using ArrayDeque
+//we Can add element from start and end also
+ArrayDeque<Integer> adq= new ArrayDeque<>();
+
+//Adding element in queue
+adq.offer(20);
+
+//Add element at first
+adq.offerFirst(35);
+
+//Add element at last 	
+adq.offerLast(14);
+adq.offer(40);
+
+//Print Queue
+System.out.println(adq);
+
+//Print element present at First
+System.out.println(adq.peek());
+System.out.println(adq.peekFirst());
+
+//Print element present at First
+System.out.println(adq.peekLast());
+
+//Remove element present at First
+System.out.println(adq.poll());
+System.out.println(adq);
+
+//Remove element present at First
+System.out.println(adq.pollFirst());
+System.out.println(adq);
+
+//Remove element present at Last
+System.out.println(adq.pollLast());
+System.out.println(adq);

@@ -1,0 +1,19 @@
+//Implenting queue using PriorityQueue
+Queue<Integer> queue=new PriorityQueue<>();
+
+//Adding elements in Queue
+queue.offer(100);
+queue.offer(50);
+queue.offer(30);
+queue.offer(20);
+
+//Print queue
+System.out.println(queue);
+
+//Remove element present at index 0(at position 1)
+queue.poll();
+
+System.out.println(queue);
+
+//Print element present at index 0(at position 1)
+System.out.println(queue.peek());

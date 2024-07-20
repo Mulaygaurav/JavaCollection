@@ -1,0 +1,41 @@
+//Implementing map using TreeMap
+//Keys in TreeMap are sorted automatically
+Map<String,Integer>  num= new TreeMap<>();
+
+//Add element in HashMap
+num.put("one",1);
+num.put("two",2);
+num.put("three",3);
+num.put("four",4);
+
+//Print Map elements
+System.out.println(num);
+
+//Checking the key is present or not and also giving value if key is absent
+if(!num.containsKey("Two")){
+	num.put("Two",23);}
+ 	
+
+//Checking the key is present or not and also giving value if key is absent
+num.putIfAbsent("Two",23);
+
+//Print Map
+System.out.println(num);
+
+//Checking element is present or not in HashMap
+System.out.println(num.containsValue(3));
+
+//Print Map keys and values using for each loop
+for(Map.Entry<String,Integer> e:num.entrySet()){
+System.out.println(e);
+
+System.out.println(e.getKey());
+System.out.println(e.getValue());}
+
+//Print only key using for each loop
+for(String key:num.KeySet()){
+System.out.println(Key);}
+
+//Print only values using for each loop
+for(String value:num.values()){
+System.out.println(value);}
